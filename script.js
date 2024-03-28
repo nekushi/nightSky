@@ -1,4 +1,4 @@
-alert("A total of 100 stars are diplayed on your screen. Look for an odd one XD")
+alert("A total of 50 stars are diplayed on your screen. Look for an odd one XD")
 
 function createStar() {
     const starContainer = document.createElement("div")
@@ -39,7 +39,7 @@ function specialStar() {
     })
 }
 
-for (let i = 0; i < 100; ++i) {
+for (let i = 0; i < 50; ++i) {
     if (i === 22) {
         specialStar()
     } else {
